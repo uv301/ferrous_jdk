@@ -1,0 +1,5 @@
+msrv = "1.75"
+cognitive-complexity-threshold = 15
+disallowed-methods = []
+disallowed-names = ["foo", "bar", "baz", "quux", "foobar"]
+doc-valid-idents = ["FerrousJDK", "Ferrous", "JVM", "JDK", "JVMS", "JLS"]

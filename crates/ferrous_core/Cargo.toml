@@ -1,0 +1,12 @@
+[package]
+name = "ferrous_core"
+version = "0.1.0"
+edition = "2021"
+authors = ["FerrousJDK Team"]
+description = "FerrousJDK JVM core implementation"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/uv301/ferrous_jdk"
+rust-version = "1.75"
+
+[dependencies]
+ferrous_utils = { path = "../ferrous_utils" }

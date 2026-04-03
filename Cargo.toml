@@ -1,0 +1,29 @@
+[workspace]
+members = [
+    "crates/ferrous_build",
+    "crates/ferrous_core",
+    "crates/ferrous_gc",
+    "crates/ferrous_interpreter",
+    "crates/ferrous_javac",
+    "crates/ferrous_jit",
+    "crates/ferrous_jni",
+    "crates/ferrous_jvmti",
+    "crates/ferrous_stdlib",
+    "crates/ferrous_tools",
+    "crates/ferrous_utils",
+]
+resolver = "2"
+
+[package]
+name = "ferrous_jdk"
+version = "0.1.0"
+edition = "2021"
+authors = ["FerrousJDK Team"]
+description = "A Rust implementation of JDK with extreme performance as the primary goal"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/uv301/ferrous_jdk"
+homepage = "https://github.com/uv301/ferrous_jdk"
+readme = "README.md"
+keywords = ["jdk", "java", "jvm", "rust"]
+categories = ["development-tools", "emulators"]
+rust-version = "1.75"
